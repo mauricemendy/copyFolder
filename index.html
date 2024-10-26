@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <h1>Copier un dossier Google Drive</h1>
+    <form onsubmit="copyFolder(); return false;">
+      <label for="folderId">ID du dossier à copier :</label>
+      <input type="text" id="folderId" name="folderId" required>
+      <br>
+      <label for="newFolderName">Nom du nouveau dossier :</label>
+      <input type="text" id="newFolderName" name="newFolderName" required>
+      <br>
+      <input type="submit" value="Copier le dossier">
+    </form>
+  </body>
+</html>
